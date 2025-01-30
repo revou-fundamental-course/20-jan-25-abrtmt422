@@ -1,0 +1,239 @@
+/* Reset CSS */
+body, h1, h2, p, form, div, select, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling Global */
+body {
+  font-family: Arial, sans-serif;
+  text-align: justify;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #007BFF;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+header p {
+  color: white;
+}
+
+#opener p {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #343a40;
+}
+
+
+/* Form Section */
+#calculator {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#calculator h2 {
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+#calculator .form-group {
+  margin-bottom: 15px;
+}
+
+#calculator label {
+  display: block;
+  margin-bottom: 5px;
+  color: #495057;
+}
+
+#calculator input, #calculator select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+#calculator .btn-group {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+#calculator .btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+#calculator .btn:hover {
+  opacity: 0.9;
+}
+
+#calculator .btn {
+  background-color: #007bff;
+}
+
+#calculator .reset-btn {
+  background-color: #dc3545;
+}
+
+/* Feature Section */
+#feature {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#result h2 {
+  font-size: 1.5rem;
+  
+}
+
+#feature-table {
+  margin-top: 10px;
+  
+}
+
+/* Narate Section */
+#narate {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#narate-paragraph {
+  font-size: 1.5rem;
+}
+
+/* Gaya untuk tombol dummy */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.konsultasi-btn, .registrasi-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.konsultasi-btn:hover, .registrasi-btn:hover {
+  opacity: 0.9;
+}
+
+
+/* Result Section */
+#result {
+  display: none; /* Hasil disembunyikan dulu */
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+#result h2 {
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+#bmi-result {
+  margin-top: 10px;
+  color: #343a40;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  font-size: 1rem;
+}
+
+#download-app {
+  display: none; /* Awalnya tersembunyi */
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px; /* Beri jarak dari hasil BMI */
+  text-align: center;
+}
+
+#download-app h2 {
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+#download-app p {
+  margin-bottom: 15px;
+  color: #495057;
+}
+
+.app-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.app-buttons img {
+  width: 150px; /* Ukuran tombol */
+  height: auto;
+  cursor: pointer;
+}
+
+#reset-section {
+  display: none; /* Awalnya tersembunyi */
+  text-align: center;
+  margin-top: 20px;
+}
+
+#reset-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#reset-btn:hover {
+  opacity: 0.9;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #6c757d;
+}

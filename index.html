@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator BMI</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Kalkulator BMI</h1>
+  </header>
+
+  <main>
+    <section id="opener">
+      <p>Berat badan ideal adalah impian semua orang. 
+        Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, 
+        berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? 
+        <br> Yuk, hitung sekarang di kalkulator BMI.
+      </p>
+    </section>  
+
+    <!-- Section untuk Form BMI -->
+    <section id="calculator">
+      <h2>Hitung BMI Anda</h2>
+      <p>Isi form berikut untuk menghitung Indeks Massa Tubuh (BMI) Anda</p>
+      <form id="bmi-form">
+        <div class="form-group">
+          <label for="gender">Jenis Kelamin:</label>
+          <select id="gender" required>
+            <option value="" disabled selected>Pilih Jenis Kelamin</option>
+            <option value="male">Laki-Laki</option>
+            <option value="female">Wanita</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="age">Usia (tahun):</label>
+          <input type="number" id="age" placeholder="Masukkan usia" required>
+        </div>
+        <div class="form-group">
+          <label for="height">Tinggi Badan (cm):</label>
+          <input type="number" id="height" placeholder="Masukkan tinggi badan" required>
+        </div>
+        <div class="form-group">
+          <label for="weight">Berat Badan (kg):</label>
+          <input type="number" id="weight" placeholder="Masukkan berat badan" required>
+        </div>
+        <div class="form-group btn-group">
+          <button type="submit" class="btn">Hitung BMI</button>
+          <button type="reset" class="btn reset-btn">Reset</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Section untuk Fitur -->
+    <section id="feature">
+      <h2> Keunggulan Fitur</h2>
+      <div id="feature-table">
+        <ol>
+          <li>Menghitung berat badan</li>
+          <li>Menentukan kategori berat badan ideal atau tidak</li>
+          <li>Mempersiapkan program penurunan berat badan</li>
+        </ol>
+      </div>  
+    </section>
+
+    <!-- Section Penjelasan -->
+     <section id="narate">
+      <p class="narate-paragraph">
+        Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh 
+        mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya 
+        selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.
+        <br>
+        Kalkulator akan memberi anda gambaran tentang perbandingan berat badan anda dengan nilai umum. 
+        Indek Massa Tubuh (atau BMI) dihitung sebagai berat badan anda (dalam kilogram) dibagi dengan 
+        kuadrat tinggi badan anda (dalam meter) atau BMI = Kg/M<sup>2</sup>.
+      </p>   
+     </section>
+
+    <section id="dummy">
+      <div class="btn-group">
+        <button class="btn konsultasi-btn">Konsultasi Ahli Gizi</button>
+        <button class="btn registrasi-btn">Registrasi Online</button>
+      </div>
+    </section> 
+     
+    <!-- Section untuk Hasil BMI -->
+    <section id="result">
+      <h2>Hasil BMI</h2>
+      <div id="bmi-result">
+        <p>Masukkan data Anda, lalu klik "Hitung BMI" untuk melihat hasilnya.</p>
+      </div>
+    </section>
+
+    <section id="download-app">
+      <h2>Unduh Aplikasi Kami</h2>
+      <p>Dapatkan pengalaman terbaik dengan aplikasi mobile kami.</p>
+      <div class="app-buttons">
+        <a href="#" class="app-store">
+          <img src="img/apple-store.jpg" alt="Download di App Store">
+        </a>
+        <a href="#" class="play-store">
+          <img src="img/google-play.png" alt="Download di Play Store">
+        </a>
+      </div>
+    </section>
+    
+    <section id="reset-section">
+      <button id="reset-btn" class="btn reset-full">Hitung Ulang</button>
+    </section>    
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kalkulator BMI. Semua hak cipta dilindungi.</p>
+  </footer>
+</body>
+</html>
